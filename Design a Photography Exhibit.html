@@ -1,56 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Photography Exhibit</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <main class="main-container grid grid-cols-3 gap-4 w-1">
-      <ul>
-        <li class="card rounded-xl p-4 list-none">
-            <article>
-                <div>
-                    <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" class="rounded-xl">
-                </div>
-                <p class="subheading font-semibold text-lg">The Colosseum, Rome</p>
-                <p class="description text-sm">Explore the grand amphitheater of the Roman Empire, an iconic symbol of ancient architectural genius and gladiatorial history.</p>
-            </article>
-        </li>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Photography Exhibit</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        
+        <main class=" bg-gray-100 min-h-screen p-1 ">
+            <h1 class="text-center mt-8 mb-4 text-2xl font-bold">Photography Exhibit</h1>
+            <ul class="main-container w-[94%] mx-auto grid grid-cols-1 auto-rows-fr gap-4 pb-8 md:grid-cols-4 md:w-[95%]">
 
-        <li class="card rounded-xl p-4 list-none">
-            <article>
-            <div>
-                <img src="https://images.unsplash.com/photo-1542838132-92c53300491e" class="rounded-xl" alt="Eiffel Tower at sunset">
-            </div>
-            <p class="subheading font-semibold text-lg">Eiffel Tower, Paris</p>
-            <p class="description text-sm">Witness the breathtaking views of the Paris skyline from the monumental iron lattice tower located on the Champ de Mars.</p>
-            </article>
-        </li>
+                <li class="card shadow-lg bg-amber-50 list-none overflow-hidden rounded-2xl p-0">
+                    <article class="flex flex-col">
+                        <div class="w-full h-[200px] md:h-3/5">
+                            <img src="https://cdn.shopify.com/s/files/1/0803/6591/products/skin-care_c18143d5-6378-46aa-b0d7-526aee3bc776.jpg?v=1426708827" class="w-full object-cover h-full rounded-t-2xl" alt="The Scout Skincare Kit" loading="lazy">
+                        </div>
+                        <div class="px-4 flex flex-col flex-1">
+                            <p class="subheading font-semibold text-base leading-[1.1rem] mt-3 mb-2">The Scout Skincare Kit — $36.00</p>
+                            <p class="description text-xs text-zinc-600 mb-6">A collection of the best Ursa Major has to offer! "The Scout" kit contains travel sizes of their best selling skin care items including Face Wash, Shave Cream, and Face Balm wrapped together in a reusable tin.</p>
+                            <div class="flex gap-2 self-end w-full mb-4">
+                                <button class="ring-amber-500 ring-1 rounded-3xl px-4 py-1">Like</button>
+                                <button class="px-6 py-1 bg-amber-500 text-white rounded-3xl">View Details</button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
 
-        <li class="card rounded-xl p-4 list-none">
-            <article>
-            <div>
-                <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523" class="rounded-xl" alt="Taj Mahal under a clear sky">
-            </div>
-            <p class="subheading font-semibold text-lg">Taj Mahal, Agra</p>
-            <p class="description text-sm">Admire the stunning white marble mausoleum, universally admired as a masterpiece of Mughal architecture and enduring love.</p>
-            </article>
-        </li>
+                <li class="card shadow-lg bg-amber-50 list-none inline-block overflow-hidden rounded-2xl p-0">
+                    <article class="flex flex-col">
+                        <div class="w-full h-[200px] md:h-3/5">
+                            <img src="https://cdn.shopify.com/s/files/1/0803/6591/products/chambray_5f232530-4331-492a-872c-81c225d6bafd.jpg?v=1426630717" class="w-full object-cover h-full rounded-t-2xl" alt="Ayres Chambray" loading="lazy">
+                        </div>
+                        <div class="px-4 flex flex-col flex-1">
+                            <p class="subheading font-semibold text-base leading-[1.1rem] mt-3 mb-2">Ayres Chambray — $98.00</p>
+                            <p class="description text-xs text-zinc-600 mb-6">Comfortable and practical, our chambray button down is perfect for travel or days spent on the go. Features a rich, washed out indigo color and two chest pockets.</p>
+                            <div class="flex gap-2 self-end w-full mb-4">
+                                <button class="ring-amber-500 ring-1 rounded-3xl px-4 py-1">Like</button>
+                                <button class="px-6 py-1 bg-amber-500 text-white rounded-3xl">View Details</button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
 
-        <li class="card rounded-xl p-4 list-none">
-            <article>
-            <div>
-                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" class="rounded-xl" alt="Kyoto temple surrounded by autumn leaves">
-            </div>
-            <p class="subheading font-semibold text-lg">Fushimi Inari Shrine, Kyoto</p>
-            <p class="description text-sm">Walk through thousands of vibrant vermilion torii gates winding up Mount Inari in this serene Japanese Shinto shrine.</p>
-            </article>
-        </li>
-        </ul>
+                <li class="card shadow-lg bg-amber-50 list-none inline-block overflow-hidden rounded-2xl p-0">
+                    <article class="flex flex-col">
+                        <div class="w-full h-[200px] md:h-3/5">
+                            <img src="https://cdn.shopify.com/s/files/1/0803/6591/products/lodge_women_white2_df6cafb7-1756-4991-8f1c-e074ecf4a5f2.jpeg?v=1426786254" class="w-full object-cover h-full rounded-t-2xl" alt="Lodge" loading="lazy">
+                        </div>
+                        <div class="px-4 flex flex-col flex-1">
+                            <p class="subheading font-semibold text-base leading-[1.1rem] mt-3 mb-2">Lodge — $36.00</p>
+                            <p class="description text-xs text-zinc-600 mb-6">The lodge, after a day of white slopes, is a place of revelry, blazing fires and high spirits. Crafted with 100% organic cotton, stone washed slub knit jersey fabric.</p>
+                            <div class="flex gap-2 self-end w-full mb-4">
+                                <button class="ring-amber-500 ring-1 rounded-3xl px-4 py-1">Like</button>
+                                <button class="px-6 py-1 bg-amber-500 text-white rounded-3xl">View Details</button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
 
-    </main>
- 
-  </body>
+                <li class="card shadow-lg bg-amber-50 list-none inline-block overflow-hidden rounded-2xl p-0">
+                    <article class="flex flex-col">
+                        <div class="w-full h-[200px] md:h-3/5">
+                            <img src="https://cdn.shopify.com/s/files/1/0803/6591/products/PA1_5b8b54ac-f422-4e1a-a275-a13a9735203f.jpeg?v=1426786334" class="w-full object-cover h-full rounded-t-2xl" alt="Pennsylvania Notebooks" loading="lazy">
+                        </div>
+                        <div class="px-4 flex flex-col flex-1">
+                            <p class="subheading font-semibold text-base leading-[1.1rem] mt-3 mb-2">Pennsylvania Notebooks — $10.00</p>
+                            <p class="description text-xs text-zinc-600 mb-6">These Pennsylvania themed notebooks are part of the "County Fair Edition" Field Notes. Printed on 100-lb. linen cover stock, this 3-pack features metallic gold printing and 48 pages of blank graph paper.</p>
+                            <div class="flex gap-2 self-end w-full mb-4">
+                                <button class="ring-amber-500 ring-1 rounded-3xl px-4 py-1">Like</button>
+                                <button class="px-6 py-1 bg-amber-500 text-white rounded-3xl">View Details</button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+
+                <li class="card shadow-lg bg-amber-50 list-none inline-block overflow-hidden rounded-2xl p-0">
+                    <article class="flex flex-col">
+                        <div class="w-full h-[200px] md:h-3/5">
+                            <img src="https://cdn.shopify.com/s/files/1/0803/6591/products/soap.jpeg?v=1426786369" class="w-full object-cover h-full rounded-t-2xl" alt="Mud Scrub Soap" loading="lazy">
+                        </div>
+                        <div class="px-4 flex flex-col flex-1">
+                            <p class="subheading font-semibold text-base leading-[1.1rem] mt-3 mb-2">Mud Scrub Soap — $15.00</p>
+                            <p class="description text-xs text-zinc-600 mb-6">Part of the "Man Soap" collection, this Mud Scrub soap is made from patchouli essential oil, purifying mud, and all-natural vegetable ingredients. Made in NY, USA.</p>
+                            <div class="flex gap-2 self-end w-full mb-4">
+                                <button class="ring-amber-500 ring-1 rounded-3xl px-4 py-1">Like</button>
+                                <button class="px-6 py-1 bg-amber-500 text-white rounded-3xl">View Details</button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                
+            </ul>
+
+        </main>
+    
+    </body>
 </html>
